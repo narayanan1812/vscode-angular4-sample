@@ -10,6 +10,14 @@ export class LoginComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.Display();
+  }
+
+  Display() {
+    console.log('ttest');
+    if (true) {
+      console.log('inside if');
+    }
   }
 
 }
